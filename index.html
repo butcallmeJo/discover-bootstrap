@@ -11,6 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <!-- Latest compiled JavaScript -->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="bootstrapChanges.js"></script>
 </head>
 
 <body>
@@ -22,19 +23,21 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">WebSiteName</a>
+        <a class="navbar-brand" href="#">Acme, Inc</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Page 1-1</a></li>
-              <li><a href="#">Page 1-2</a></li>
-              <li><a href="#">Page 1-3</a></li>
+              <li><a href="#">Financial services</a></li>
+              <li><a href="#">Real estate</a></li>
+              <li><a href="#">Insurance</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Pharmaceuticals</a></li>
             </ul>
           </li>
         </ul>
@@ -47,53 +50,60 @@
   </nav>
   <div class="container">
     <div class="jumbotron">
-      <h1>Bootstrap Tutorial</h1>
+      <h1>Innovation at its core</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <button type="button" class="btn btn-primary">Learn more about Acme, inc &#187;</button>
+      <button type="button" class="btn btn-primary" data-trigger="hover" data-toggle="popover" title="What's behind that link" data-content="Tons of information about Acme's products and services. Click now, you won't be disappointed"><strong>Learn more about Acme, inc &#187;</strong></button>
     </div>
     <div class="row">
       <div class="col-sm-6 col-md-4">
         <h1>Heading</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
           dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" class="btn btn-default">View details &#187;</button>
       </div>
       <div class="col-sm-6 col-md-4">
         <h1>Heading</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
           dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" class="btn btn-default">View details &#187;</button>
       </div>
       <div class="col-sm-6 col-md-4">
         <h1>Heading</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
           dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" class="btn btn-default">View details &#187;</button>
       </div>
       <div class="col-sm-6 col-md-4">
         <h1>Heading</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
           dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" class="btn btn-default">View details &#187;</button>
       </div>
       <div class="col-sm-6 col-md-4">
         <h1>Heading</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
           dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" class="btn btn-default">View details &#187;</button>
       </div>
       <div class="col-sm-6 col-md-4">
         <h1>Heading</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
           dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" class="btn btn-default">View details &#187;</button>
       </div>
     </div>
-
+    <br>
+    <h1>FAQ</h1>
     <div class="panel-group" id="accordion">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-        Collapsible Group 1</a>
+        <strong><u>Question #1</u></strong></a>
       </h4>
         </div>
-        <div id="collapse1" class="panel-collapse collapse in">
+        <div id="collapse1" class="panel-collapse collapse">
           <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
         </div>
       </div>
@@ -101,7 +111,7 @@
         <div class="panel-heading">
           <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-        Collapsible Group 2</a>
+        <strong><u>Question #2</u></strong></a>
       </h4>
         </div>
         <div id="collapse2" class="panel-collapse collapse">
@@ -112,7 +122,7 @@
         <div class="panel-heading">
           <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-        Collapsible Group 3</a>
+        <strong><u>Question #3</u></strong></a>
       </h4>
         </div>
         <div id="collapse3" class="panel-collapse collapse">
@@ -120,6 +130,8 @@
         </div>
       </div>
     </div>
+    <br>
+    <h5>&copy; 2016 Acme, Inc.</h5>
 </body>
 
 </html>
